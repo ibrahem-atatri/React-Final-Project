@@ -1,0 +1,10 @@
+
+nav {
+ 
+    border-bottom: silver 0.01px solid;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+}
+
+.auth {
+    position: relative;
+}

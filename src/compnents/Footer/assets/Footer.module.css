@@ -1,0 +1,147 @@
+
+/* start footer style sheets*/
+
+footer {
+    background: #FFF;
+    padding: 20px 0px 30px 0px;
+    
+    
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 50px;
+    border-top: 1px solid gray;
+    
+}
+
+footer .footerUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F1F1F3;
+
+}
+
+.footerUpStart {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+ .logo {
+    width: 47px;
+    height: 47px;
+}
+
+ .address {
+    display: flex;
+    gap: 20px;
+    
+}
+
+ .address div {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+ .address div img {
+    width: 24px;
+    height: 24px;
+}
+
+ .address div p {
+    color: #262626;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footerUpEnd {
+ height: px;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+ .socialMedia {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.socialMedia h2 {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ .socialMedia div {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.socialMedia div img {
+    height: 30px;
+    width: 30px;
+}
+.footerBottom {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom p {
+    color: #656567;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width:950px) {
+
+
+    .footerUp {
+        flex-direction: column;
+        gap: 15px;
+       
+        padding-bottom: 10px;
+    }
+
+
+
+    .logo {
+        width: 33px;
+        height: 33px;
+    }
+
+   .address {
+    
+    min-width: 300px;
+    flex-wrap: wrap;
+        gap: 13px;
+    }
+
+  .address div {
+        gap: 6px;
+    }
+
+    .address div img {
+        width: 24px;
+        height: 24px;
+    }
+
+   .address div p {
+        font-size: 15px;
+    }
+
+
+
+}
+/* end footer style sheets*/

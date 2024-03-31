@@ -1,0 +1,219 @@
+.body{
+    padding: 30px 20px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    z-index: 9;
+    border: 1px solid #198754 ;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    /* display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center; */
+}
+.success {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.logIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.logIn img {
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 0.2px solid #198754 ;
+}
+.logIn div:not(:last-of-type) {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logIn div:first-of-type{
+    margin-top: 15px;
+}
+
+.logIn p {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: red;
+}
+.logIn button {
+    padding: 1px 8px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    background-color: #1E4C2F ;
+    color:#FFFFFF ;
+}
+
+.logIn div label {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #0a4e23;
+}
+
+.logIn div input {
+    border: 1px solid #257E34;
+    border-radius: 8px;
+    padding: 2px 8px;
+}
+
+.logIn .link{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0a4e23;
+}
+.afterLogIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 40px 20px 40px 20px;
+}
+.userInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.userInformation img {
+    width: 70px;
+    height: 70px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 0.2px solid #198754 ;
+    
+}
+
+.userInformation h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(33, 33, 33);
+}
+.afterLogIn button {
+    padding: 1px 8px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    background-color: #1E4C2F ;
+    color:#FFFFFF ;
+    position: relative;
+}
+.hidden {
+    display: none;
+}
+@media screen and (max-width:2150px) {
+    .body{
+        left: -210px;
+        
+    }
+}
+@media screen and (max-width:1650px) {
+    .body{
+        left: -310px;
+        
+    }
+}
+
+@media screen and (max-width:991px) {
+    .body{
+        left: 0px;
+        
+    }
+}
+@media screen and (max-width:728px) {
+    .body{
+        left: -30px;
+        width: 380px;
+        height: 380px;
+    }
+}
+@media screen and (max-width:447px) {
+    .body{
+        left: -35px;
+        width: 330px;
+        height: 330px;
+    }
+
+    .logIn {
+       
+        padding: 2px ;
+    }
+
+    
+}
+@media screen and (max-width:399px) {
+    .body{
+        left: -45px;
+        width: 280px;
+        height: 300px;
+    }
+
+    .logIn {
+       
+        padding: 2px ;
+    }
+
+    .logIn div:not(:last-of-type) {
+        width: 100%;
+        gap: 5px;
+    
+    }
+    
+    .logIn div input {
+        width: 150px;
+    }
+    
+   
+}
+
+
+p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.buttonDiv {
+   
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.buttonDiv .link {
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    background: #1E4C2F;
+    color: #fff;
+    text-decoration: none;
+}

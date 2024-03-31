@@ -1,0 +1,17 @@
+.aboutUsBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid #1E4C2F;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.aboutUsBody div {
+    text-align: center;
+}
+
