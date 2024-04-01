@@ -5,6 +5,9 @@ import AuthInformation from "../authInformation/AuthInformation";
 import authStyle from "../authInformation/assets/AuthInformation.module.css";
 import { userContext } from "../../../context/User";
 import { Bounce, toast } from "react-toastify";
+import logo from"./assets/image/logo.svg"
+import cartIcon from "./assets/image/shopping-cart.svg" 
+import userIcon from "./assets/image/user.svg"
 function NavBar() {
   // const [showAuthInformation,setShowAuthInformation] = useState(false);
   const { showAuthInformation } = useContext(userContext);
@@ -46,7 +49,7 @@ function NavBar() {
             className="navbar-brand d-flex  align-items-center gap-3"
             to="/"
           >
-            <img src="src\compnents\NavBar\assets\logo.svg" alt="not found" />
+            <img src={logo} alt="not found" />
             <span>IA SHOP</span>
           </Link>
           {/*  */}
@@ -92,8 +95,8 @@ function NavBar() {
                 }}
               >
                 <img
-                  src="src\compnents\NavBar\assets\shopping-cart.svg"
-                  alt=""
+                  src={cartIcon}
+                  alt="cart Icon"
                 />
               </Link>
               <button
@@ -104,7 +107,7 @@ function NavBar() {
                   dropDownAuthInformation();
                 }}
               >
-                <img src="src\compnents\NavBar\assets\user.svg" alt="" />
+                <img src={userIcon} alt="user icon" />
               </button>
               {showAuthInformation ? <AuthInformation /> : null}
             </div>

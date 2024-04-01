@@ -157,7 +157,7 @@ function logInAlert(choise){
 </div>
 
   ) : (
-    products.length > 0 ? (
+    !error ? (
       <div className={style.productBoxes}>
       {products.map((product) => (
         <div className={style.productBox} key={product._id}>

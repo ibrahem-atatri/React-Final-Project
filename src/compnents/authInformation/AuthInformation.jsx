@@ -4,7 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { userContext } from "../../../context/User";
 import axios from "axios";
 import { object, string } from "yup";
-
+import logo from "./assets/image/logo.svg"
+import userIcon from "./assets/image/user.svg"
+import tickIcon from "./assets/image/tick-circle.png"
 function AuthInformation() {
   // const [showLogInInformation,setShowLogInInformation] = useState(true);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -114,7 +116,7 @@ function AuthInformation() {
       >
         <div className={style.success}>
           <img
-            src="src\compnents\authInformation\assets\image\tick-circle.png"
+            src={tickIcon}
             alt="not found"
           />
           <p>Log In Account Successfull!</p>
@@ -133,7 +135,7 @@ function AuthInformation() {
         <div className={style.afterLogIn}>
           <div className={style.userInformation}>
             <img
-              src="src\compnents\authInformation\assets\image\user.svg"
+              src={userIcon}
               alt="not found"
             />
             <h4>{userName}</h4>
@@ -197,7 +199,7 @@ function AuthInformation() {
       }}
     >
       <form className={style.logIn} onSubmit={handleForm}>
-        <img src="src\compnents\NavBar\assets\logo.svg" alt="" />
+        <img src={logo} alt="logo" />
         <div>
           <label htmlFor="email">Email</label>
           <input
